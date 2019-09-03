@@ -1,25 +1,28 @@
 {
-  "name": "line-message-bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon ./functions/index.js",
-    "lambda-serve": "netlify-lambda serve functions",
-    "lambda-build": "netlify-lambda build functions"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@line/bot-sdk": "^6.8.2",
-    "dotenv": "^8.1.0",
-    "express": "^4.17.1",
-    "firebase-admin": "^8.4.0",
-    "netlify-lambda": "^1.6.3",
-    "serverless-http": "^2.3.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+	"name": "line-message-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon ./functions/index.js",
+		"lambda-serve": "netlify-lambda serve functions",
+		"lambda-build": "netlify-lambda build functions"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"engines": {
+		"node": "10.x"
+	},
+	"dependencies": {
+		"@line/bot-sdk": "^6.8.2",
+		"dotenv": "^8.1.0",
+		"express": "^4.17.1",
+		"firebase-admin": "^8.4.0",
+		"netlify-lambda": "^1.6.3",
+		"serverless-http": "^2.3.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.1"
+	}
 }
