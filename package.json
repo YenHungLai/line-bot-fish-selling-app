@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "nodemon ./functions/index.js",
+		"start": "node index.js",
 		"lambda-serve": "netlify-lambda serve functions",
 		"lambda-build": "netlify-lambda build functions"
 	},
